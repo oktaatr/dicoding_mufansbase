@@ -1,0 +1,2 @@
+Firebase Hosting : https://mu-fansbase.web.app
+Github Pages     : https://github.com/oktaatr/dicoding_mufansbase

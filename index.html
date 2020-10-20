@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>MU Fans</title>
+  <meta name="description" content="My first PWA"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" href="images/logo_192.png">
+  <link rel="shortcut icon" href="images/logo_192.png">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/icon.css">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#ffffff"/>
+</head>
+<body>
+
+  <!-- Navigasi -->
+  <nav role="navigation" style="background-color: #c70101 !important;">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">MU Fans</a>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger">&#9776;</a>
+
+      <ul class="topnav right hide-on-med-and-down"></ul>
+      <ul id="nav-mobile" class="sidenav"></ul>
+    </div>
+  </nav>
+  <!-- Akhir Navigasi -->
+
+  <div class="body-content container"></div>
+
+  <script src="js/materialize.min.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/setting-notification.js"></script>
+  <script src="js/config-sw.js"></script>
+  <script src="js/idb.js"></script>
+  <script src="js/controllerdb.js"></script>
+
+</body>
+</html>
